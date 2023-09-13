@@ -78,7 +78,7 @@ const textStyles = {
             fontSize: ['md', 'lg'],
             fontWeight: '600',
             lineHeight: 'base',
-            letterSpacing: 'normal',
+            letterSpacing: 'normal',            
         },
         medium: {
             fontFamily: 'default',
