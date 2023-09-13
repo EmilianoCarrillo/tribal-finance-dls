@@ -5,7 +5,7 @@ import {
 import * as React from "react"
 import * as ReactDOM from "react-dom/client"
 import { App } from "./App"
-import theme from "./styles/theme"
+import theme from './theme/index'
 
 
 const container = document.getElementById("root")

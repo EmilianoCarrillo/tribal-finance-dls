@@ -1,3 +1,5 @@
+/* Color design token assignation for light and dark modes */
+
 import colors from "./colors";
 
 const semanticColors = {

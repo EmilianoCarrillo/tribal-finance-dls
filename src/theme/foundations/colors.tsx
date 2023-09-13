@@ -1,3 +1,5 @@
+/* Color palette with hex values */
+
 const colors = {
     black: "#000000",
     white: "#FFFFFF",

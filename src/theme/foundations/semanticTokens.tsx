@@ -1,6 +1,7 @@
-import { extendTheme, ThemeConfig } from "@chakra-ui/react";
-import colors from "./foundations/colors";
-import semanticColors from "./foundations/semanticColors";
+/* Chakra's semantic token definition */
+/* https://chakra-ui.com/docs/styled-system/semantic-tokens */
+
+import semanticColors from "./semanticColors";
 
 const semanticTokens = {
     colors: { 
@@ -205,25 +206,4 @@ const semanticTokens = {
     }
 }
 
-const styles = {
-    global: {
-        body: { 
-            background: 'bg.page',
-        }
-    }
-}
-
-const config: ThemeConfig = {
-    cssVarPrefix: "tf",
-    initialColorMode: 'system',
-    useSystemColorMode: true,
-}
-
-const theme = extendTheme({
-    config,
-    colors,
-    semanticTokens,
-    styles
-});
-
-export default theme;
+export default semanticTokens;
