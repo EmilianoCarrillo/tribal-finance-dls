@@ -5,6 +5,8 @@ import colors from "./foundations/colors";
 import semanticTokens from "./foundations/semanticTokens";
 import {fonts, fontSizes, textStyles} from './foundations/typography';
 import styles from './styles';
+import { containerTheme } from "./components/container";
+import { cardTheme } from "./components/card";
 
 const config: ThemeConfig = {
     cssVarPrefix: "tf",
@@ -19,7 +21,11 @@ const theme = extendTheme({
     fonts,
     fontSizes,
     textStyles,
-    styles
+    styles,
+    components: {
+        Container: containerTheme,
+        Card: cardTheme
+    }
 });
 
 export default theme;
