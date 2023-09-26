@@ -10,6 +10,8 @@ import {
   Th,
   Td,
   TableContainer,
+  Alert,
+  AlertIcon,
 } from "@chakra-ui/react";
 
 const meta: Meta<typeof TableContainer> = {
@@ -81,8 +83,7 @@ export const HeadingsAndSubtitle: Story = {
           <Tr>
             <Td textStyle="subtitle">Subtitle</Td>
             <Td textStyle="body.medium">
-              Commonly paired with heading styles to create subtitles for
-              pages.
+              Commonly paired with heading styles to create subtitles for pages.
             </Td>
           </Tr>
           <Tr>
@@ -128,8 +129,8 @@ export const Display: Story = {
           <Tr>
             <Td textStyle="display.small">Display small</Td>
             <Td textStyle="body.medium">
-              Third heading for mkt sites. Sparingly used for Display
-              titles in product pages.
+              Third heading for mkt sites. Sparingly used for Display titles in
+              product pages.
             </Td>
           </Tr>
           <Tr>
@@ -147,3 +148,50 @@ export const Display: Story = {
     </TableContainer>
   ),
 };
+
+export const Tabular: Story = {
+  render: () => (
+    <TableContainer
+      bg="bg.elevation-raised"
+      border="solid 1px"
+      borderColor="border.neutral-faded"
+      w="fit-content"
+      borderRadius="lg"
+    >
+      <Alert status="warning">
+        <AlertIcon />
+        Storybook isn't loading the tabular style for Public Sans
+      </Alert>
+      <Table size="lg">
+        <Thead>
+          <Tr background="bg.neutral-faded">
+            <Th>Sample</Th>
+            <Th>Description</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr>
+            <Td textStyle="tabular.small">123.56 Tabular small</Td>
+            <Td textStyle="body.medium">
+              For tables, charts, or any scenario where numbers are required to
+              line up vertically.
+            </Td>
+          </Tr>
+          <Tr>
+            <Td textStyle="tabular.medium">123.56 Tabular medium</Td>
+            <Td textStyle="body.medium">
+              For tables, charts, or any scenario where numbers are required to
+              line up vertically.
+            </Td>
+          </Tr>
+        </Tbody>
+      </Table>
+    </TableContainer>
+  ),
+};
+
+{
+  /* 
+        <Text textStyle='tabular.small'>123.56 Tabular small</Text>
+        <Text textStyle='tabular.medium'>123.56 Tabular medium</Text> */
+}
