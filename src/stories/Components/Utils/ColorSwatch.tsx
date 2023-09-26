@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flex, useToken, Text, Box, ChakraProvider } from '@chakra-ui/react';
-import theme from '../theme/index';
+import theme from '../../../theme';
+
 
 interface ColorSwatchProps {
   colorName: string;
