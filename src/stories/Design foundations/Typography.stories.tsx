@@ -189,9 +189,3 @@ export const Tabular: Story = {
     </TableContainer>
   ),
 };
-
-{
-  /* 
-        <Text textStyle='tabular.small'>123.56 Tabular small</Text>
-        <Text textStyle='tabular.medium'>123.56 Tabular medium</Text> */
-}

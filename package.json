@@ -1,6 +1,6 @@
 {
   "homepage": "http://EmilianoCarrillo.github.io/tf-dls",
-  "name": "tribal-finance-poc",
+  "name": "tribal-finance-dls",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -71,5 +71,16 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.4.0",
     "webpack": "^5.88.2"
+  },
+  "description": "Design System for Tribal Finance",
+  "main": "index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilianoCarrillo/tribal-finance-dls.git"
+  },
+  "author": "Emiliano Carrillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilianoCarrillo/tribal-finance-dls/issues"
   }
 }
