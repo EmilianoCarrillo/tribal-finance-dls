@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("../../../node_modules/@chakra-ui/anatomy/dist/chunk-Z4JVF5YI.mjs.js"),r=require("@chakra-ui/react");const{definePartsStyle:t,defineMultiStyleConfig:a}=r.createMultiStyleConfigHelpers(e.tableAnatomy.keys),o=a({baseStyle:t({th:{backgroundColor:"gray.50",color:"gray.500"}}),variants:{noHeader:{th:{backgroundColor:"transparent",color:"foreground.fg-neutral-faded",textTransform:"none"}}}});exports.tableTheme=o;
+//# sourceMappingURL=table.js.map

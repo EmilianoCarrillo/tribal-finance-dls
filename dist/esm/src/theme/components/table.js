@@ -1,0 +1,2 @@
+import{tableAnatomy as r}from"../../../node_modules/@chakra-ui/anatomy/dist/chunk-Z4JVF5YI.mjs.js";import{createMultiStyleConfigHelpers as o}from"@chakra-ui/react";const{definePartsStyle:a,defineMultiStyleConfig:e}=o(r.keys),t=e({baseStyle:a({th:{backgroundColor:"gray.50",color:"gray.500"}}),variants:{noHeader:{th:{backgroundColor:"transparent",color:"foreground.fg-neutral-faded",textTransform:"none"}}}});export{t as tableTheme};
+//# sourceMappingURL=table.js.map

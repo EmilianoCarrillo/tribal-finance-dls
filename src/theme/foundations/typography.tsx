@@ -8,7 +8,7 @@ const fonts = {
 
     /* Default theme overrides */
     body: "Public Sans, sans-serif",
-    heading: "Work Sans, sans-serif",
+    heading: "Public Sans, sans-serif",
 }
 
 const fontSizes = {
@@ -20,8 +20,40 @@ const fontSizes = {
     "2xl": "1.5rem",
     "3xl": "1.875rem",
     "4xl": "2.5rem",
-    "5xl": "3.5rem"
+    "5xl": "3.5rem",
+    // Legacy styles 🚨
+    heading: {
+        '2xl': '56px',
+        xl: '40px',
+        lg: '30px',
+        md: '22px',
+        sm: '18px',
+    },
+    body: {
+        lg: '16px',
+        md: '14px',
+        sm: '12px',
+    },
+    // 🚨
 }
+
+// Legacy styles 🚨
+const lineHeights = {
+    heading: {
+        lg: '42px',
+        md: '25px',
+        sm: '25px',
+    },
+}
+const fontWeights = {
+    normal: 400,
+    medium: 600,
+    heading: {
+        lg: 700,
+        sm: 600,
+    },
+}
+// 🚨
 
 const textStyles = {
     body: {
@@ -120,4 +152,4 @@ const textStyles = {
     }
 }
 
-export  {fonts, fontSizes, textStyles}
+export  {fonts, fontSizes, textStyles, lineHeights, fontWeights}

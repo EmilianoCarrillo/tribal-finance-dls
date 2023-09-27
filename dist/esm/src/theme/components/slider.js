@@ -1,0 +1,2 @@
+import{sliderAnatomy as r}from"../../../node_modules/@chakra-ui/anatomy/dist/chunk-Z4JVF5YI.mjs.js";import{createMultiStyleConfigHelpers as o}from"@chakra-ui/react";const{definePartsStyle:e,defineMultiStyleConfig:t}=o(r.keys),a=t({baseStyle:e({thumb:{width:"24px",height:"24px",backgroundColor:"primary.500",borderRadius:"full",borderColor:"white",borderWidth:"2px"},track:{height:"4px",backgroundColor:"gray.200"},filledTrack:{backgroundColor:"primary.500"}})});export{a as sliderTheme};
+//# sourceMappingURL=slider.js.map
