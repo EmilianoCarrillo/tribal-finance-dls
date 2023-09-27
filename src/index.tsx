@@ -1,23 +1,4 @@
-import { 
-  ChakraProvider,
-  ColorModeScript
-} from "@chakra-ui/react"
-import * as React from "react"
-import * as ReactDOM from "react-dom/client"
-import { App } from "./App"
-import theme from './theme/index'
-
-
-const container = document.getElementById("root")
-if (!container) throw new Error('Failed to find the root element');
-const root = ReactDOM.createRoot(container)
-
-root.render(
-  <React.StrictMode>
-    <ChakraProvider theme={theme} resetCSS>
-      <ColorModeScript />
-      <App />
-    </ChakraProvider>
-  </React.StrictMode>,
-)
-
+// import "@fontsource/public-sans/400.css";
+// import "@fontsource/public-sans/600.css";
+// import "@fontsource/work-sans/600.css";
+export * from './theme/index';
