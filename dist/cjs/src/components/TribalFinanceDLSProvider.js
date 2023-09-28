@@ -1,2 +1,2 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react/jsx-runtime"),r=require("@chakra-ui/react"),i=require("../theme/index.js");exports.TribalFinanceDLSProvider=({children:t})=>e.jsx(r.ChakraProvider,{theme:i,children:t});
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react/jsx-runtime"),r=require("@chakra-ui/react"),i=require("../theme/index.js");exports.TribalFinanceDLSProvider=({children:t,useSystemColorMode:o=!0})=>{const s={...i.config,initialColorMode:o?"system":"light",useSystemColorMode:o},n=r.extendTheme({...i,config:s});return e.jsx(r.ChakraProvider,{theme:n,children:t})};
 //# sourceMappingURL=TribalFinanceDLSProvider.js.map

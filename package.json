@@ -1,7 +1,7 @@
 {
   "homepage": "http://EmilianoCarrillo.github.io/tf-dls",
   "name": "tribal-finance-dls",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -57,7 +57,7 @@
     "theme": "chakra-cli tokens src/theme/index.tsx",
     "theme:watch": "chakra-cli tokens src/theme/index.tsx --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build -o docs-build"
   },
   "eslintConfig": {
     "extends": [
