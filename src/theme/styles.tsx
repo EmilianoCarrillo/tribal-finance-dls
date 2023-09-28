@@ -5,6 +5,7 @@ const styles = {
     global: {
         body: { 
             background: 'bg.page',
+            color:'fg.neutral'
         }
     }
 }
