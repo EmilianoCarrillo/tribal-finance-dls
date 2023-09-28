@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from "@storybook/react";
+import { TableContainer } from "@chakra-ui/react";
+declare const meta: Meta<typeof TableContainer>;
+export default meta;
+type Story = StoryObj<typeof TableContainer>;
+export declare const Background: Story;
+export declare const Border: Story;
+export declare const ForegroundAndOnBackground: Story;
+export declare const PageAndElevation: Story;
+export declare const Persistent: Story;

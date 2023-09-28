@@ -1,7 +1,7 @@
 {
   "homepage": "http://EmilianoCarrillo.github.io/tf-dls",
   "name": "tribal-finance-dls",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -89,7 +89,7 @@
   },
   "main": "./dist/cjs/src/index.js",
   "module": "./dist/esm/src/index.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "src": "./src",
   "files": [
     "/dist"
