@@ -16,6 +16,7 @@ const baseStyle = definePartsStyle({
     paddingX: ['4','6'],
     paddingTop: ['4','6'],
     paddingBottom: '0',
+    textStyle: 'heading.small',
   },
   body: {
     paddingX: ['4','6'],
