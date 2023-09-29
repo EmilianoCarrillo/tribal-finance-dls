@@ -1,7 +1,7 @@
 // Container.stories.ts|tsx
 
 import type { Meta, StoryObj } from "@storybook/react";
-import { Card, CardBody, Center, Container } from "@chakra-ui/react";
+import { Card, Center, Container } from "@chakra-ui/react";
 
 const meta: Meta<typeof Container> = {
   title: "Layout/Container",
