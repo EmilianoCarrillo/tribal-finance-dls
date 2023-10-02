@@ -1,10 +1,14 @@
 import type { Preview } from "@storybook/react";
 import theme from "../src/theme/index";
 
-
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
+    options: {
+      storySort: {
+        order: ['Design Foundations', 'Layout', '*'],
+      },
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,
