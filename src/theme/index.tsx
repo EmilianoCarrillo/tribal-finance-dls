@@ -15,6 +15,7 @@ import { tabsTheme } from "./components/tabs";
 import { sliderTheme } from "./components/slider";
 import { tooltipTheme } from "./components/tooltip";
 import { tableTheme } from "./components/table";
+import { stepperTheme } from "./components/stepper";
 
 const config: ThemeConfig = {
     cssVarPrefix: "tf",
@@ -33,6 +34,7 @@ const theme = extendTheme({
     components: {
         Container: containerTheme,
         Card: cardTheme,
+        Stepper: stepperTheme,
         // Legacy styles 🚨
         Avatar: avatarTheme,
         Badge: badgeTheme,

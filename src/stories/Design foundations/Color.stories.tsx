@@ -6,7 +6,7 @@ import {
   TableContainer,
   VStack,
 } from "@chakra-ui/react";
-import ColorSwatch from "../Components/Utils/ColorSwatch";
+import ColorSwatch from "../Utils/ColorSwatch";
 
 
 const meta: Meta<typeof TableContainer> = {
