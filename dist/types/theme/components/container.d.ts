@@ -1,8 +1,8 @@
 export declare const containerTheme: {
     baseStyle?: {
         paddingX: ("4" | "8")[];
-        paddingTop: ("14" | "24")[];
-        paddingBottom: ("8" | "17")[];
+        paddingTop: string;
+        paddingBottom: string;
         maxW: string;
     } | undefined;
     sizes?: {

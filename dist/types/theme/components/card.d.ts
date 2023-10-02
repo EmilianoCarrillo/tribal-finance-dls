@@ -11,6 +11,7 @@ export declare const cardTheme: {
             paddingX: ("4" | "6")[];
             paddingTop: ("4" | "6")[];
             paddingBottom: string;
+            textStyle: string;
         };
         body: {
             paddingX: ("4" | "6")[];
