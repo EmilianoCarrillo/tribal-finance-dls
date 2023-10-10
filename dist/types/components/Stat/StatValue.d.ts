@@ -7,5 +7,4 @@ export interface StatValueProps extends FlexProps {
     variant?: "strong" | "subtle";
     numberStyle?: "default" | "tabular";
 }
-declare const StatValue: React.FC<StatValueProps>;
-export default StatValue;
+export declare const StatValue: React.FC<StatValueProps>;

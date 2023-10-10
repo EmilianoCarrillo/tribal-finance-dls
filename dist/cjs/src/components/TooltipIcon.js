@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react/jsx-runtime"),r=require("@chakra-ui/react"),o=require("../../node_modules/lucide-react/dist/esm/icons/info.js");exports.TooltipIcon=({label:l})=>e.jsx(r.Tooltip,{label:l,bg:"blue","aria-label":"A tooltip",maxW:"xs",children:e.jsx(r.Box,{color:"fg.neutral-faded",_hover:{color:"fg.neutral"},w:18,h:18,children:e.jsx(o,{size:18})})});
+//# sourceMappingURL=TooltipIcon.js.map

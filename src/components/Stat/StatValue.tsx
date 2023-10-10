@@ -8,7 +8,7 @@ export interface StatValueProps extends FlexProps {
   numberStyle?: "default" | "tabular";
 }
 
-const StatValue: React.FC<StatValueProps> = ({
+export const StatValue: React.FC<StatValueProps> = ({
   value,
   currency,
   size,
@@ -55,5 +55,3 @@ const StatValue: React.FC<StatValueProps> = ({
     </Flex>
   );
 };
-
-export default StatValue;

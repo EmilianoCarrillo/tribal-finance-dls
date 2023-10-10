@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react/jsx-runtime"),t=require("@chakra-ui/react"),r=require("../TooltipIcon.js");exports.StatLabel=({label:l,size:o,tooltip:i,...s})=>{const a={lg:"body.medium",md:"body.medium",sm:"body.small"}[o||"md"];return e.jsxs(t.Flex,{alignItems:"center",gap:1,...s,children:[e.jsx(t.Text,{textStyle:a,color:"fg.neutral-faded",children:l}),i&&e.jsx(r.TooltipIcon,{label:i})]})};
+//# sourceMappingURL=StatLabel.js.map

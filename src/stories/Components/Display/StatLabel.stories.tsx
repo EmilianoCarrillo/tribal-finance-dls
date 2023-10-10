@@ -1,7 +1,7 @@
 // StatLabel.stories.ts|tsx
 
 import type { Meta, StoryObj } from "@storybook/react";
-import StatLabel from "../../../components/Stat/StatLabel";
+import {StatLabel} from "../../../components/Stat/StatLabel";
 
 const meta: Meta<typeof StatLabel> = {
   title: "Display/Stat/StatLabel",

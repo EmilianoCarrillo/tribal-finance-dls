@@ -5,5 +5,4 @@ export interface StatLabelProps extends FlexProps {
     size?: "lg" | "md" | "sm";
     tooltip?: string;
 }
-declare const StatLabel: React.FC<StatLabelProps>;
-export default StatLabel;
+export declare const StatLabel: React.FC<StatLabelProps>;

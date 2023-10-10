@@ -1,7 +1,7 @@
 // StatValue.stories.ts|tsx
 
 import type { Meta, StoryObj } from "@storybook/react";
-import StatValue from "../../../components/Stat/StatValue";
+import {StatValue} from "../../../components/Stat/StatValue";
 
 const meta: Meta<typeof StatValue> = {
   title: "Display/Stat/StatValue",

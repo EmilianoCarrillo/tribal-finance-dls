@@ -1,0 +1,2 @@
+import{jsx as e}from"react/jsx-runtime";import{Tooltip as r,Box as o}from"@chakra-ui/react";import l from"../../node_modules/lucide-react/dist/esm/icons/info.js";const a=({label:a})=>e(r,{label:a,bg:"blue","aria-label":"A tooltip",maxW:"xs",children:e(o,{color:"fg.neutral-faded",_hover:{color:"fg.neutral"},w:18,h:18,children:e(l,{size:18})})});export{a as TooltipIcon};
+//# sourceMappingURL=TooltipIcon.js.map

@@ -1,0 +1,2 @@
+import{jsxs as e,jsx as o}from"react/jsx-runtime";import{Flex as t,Text as m}from"@chakra-ui/react";import{TooltipIcon as r}from"../TooltipIcon.js";const l=({label:l,size:i,tooltip:a,...d})=>e(t,{alignItems:"center",gap:1,...d,children:[o(m,{textStyle:{lg:"body.medium",md:"body.medium",sm:"body.small"}[i||"md"],color:"fg.neutral-faded",children:l}),a&&o(r,{label:a})]});export{l as StatLabel};
+//# sourceMappingURL=StatLabel.js.map
