@@ -6,12 +6,13 @@ const baseStyle = {
     gap: "1rem",
   },
   title: {
-    color: "fg.neutral"
+    color: "fg.neutral",
   },
   description: {
     color: "fg.neutral-faded",
   },
 };
+
 
 const defaultProps = {
   size: "sm",
