@@ -7,5 +7,5 @@ interface StatProps extends FlexProps {
     orientation?: "vertical" | "horizontal";
     children?: React.ReactElement<StatLabelProps | StatValueProps>[] | React.ReactElement<StatLabelProps | StatValueProps>;
 }
-declare const Stat: React.FC<StatProps>;
-export default Stat;
+export declare const Stat: React.FC<StatProps>;
+export {};

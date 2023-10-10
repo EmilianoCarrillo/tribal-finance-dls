@@ -1,5 +1,5 @@
 import type { Meta, Story } from "@storybook/react";
-import Stat from "../../../components/Stat/Stat";
+import {Stat} from "../../../components/Stat/Stat";
 import {StatLabel} from "../../../components/Stat/StatLabel";
 import {StatValue} from "../../../components/Stat/StatValue";
 

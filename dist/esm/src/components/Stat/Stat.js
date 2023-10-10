@@ -1,0 +1,2 @@
+import{jsx as r}from"react/jsx-runtime";import{Flex as t}from"@chakra-ui/react";import e from"react";const i=({children:i,orientation:o,size:a,...n})=>{const m="horizontal"===o?"row":"column",c={lg:{gap:1},md:{gap:.5},sm:{gap:.5}}[a||"md"],l=e.Children.map(i,(r=>e.isValidElement(r)?e.cloneElement(r,{size:a}):r));return r(t,{direction:m,align:"start",gap:c.gap,...n,children:l})};export{i as Stat};
+//# sourceMappingURL=Stat.js.map
