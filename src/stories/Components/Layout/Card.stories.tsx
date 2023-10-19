@@ -15,7 +15,7 @@ export const Default: Story = {
   render: () => (
     <Card>
       <CardHeader>
-        This is a title
+        This is the card title
       </CardHeader>
       <CardBody>This is the card body. It should always be used to generate the right card paddings even though the card doesn't have headings or footers.</CardBody>
       <CardFooter>This is the card footer</CardFooter>
